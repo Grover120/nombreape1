@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class nombreapellido{
+public static void main(String[]Args){
+Scanner add = new Scanner(System.in);
+
+System.out.printl("ingrese el nombre: ");
+String nombre =add.nextLine();
+
+
+System.out.printl("ingrese el apellido: ");
+String apellido =add.nextLine();
+
+System.out.println("Yo me llamo: "+nombre);
+System.out.println("Mi apellido es: "+apellido);
+}
+}
